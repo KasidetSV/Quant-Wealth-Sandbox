@@ -85,7 +85,7 @@ class ERAA_Simulator:
 
 
 if __name__ == "__main__":
-    print("🚀 Initializing Quant Wealth Sandbox: ERAA Simulator\n")
+    print("[SYSTEM] Initializing Quant Wealth Sandbox: ERAA Simulator\n")
     
     # Initialize for a balanced risk profile (12% Target SRI)
     simulator = ERAA_Simulator(target_sri=0.12)
